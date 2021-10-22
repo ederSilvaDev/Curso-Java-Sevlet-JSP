@@ -1,0 +1,152 @@
+##########################################################################################
+ - LOG, APOS TER ALTERADO PARA TOMCAT 10
+
+
+
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/10.0.12
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 28 2021 13:34:21 UTC
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 10.0.12.0
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\sts-4.12.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           16.0.2+7-67
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\apache-tomcat-10.0.12
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\apache-tomcat-10.0.12
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\apache-tomcat-10.0.12
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\apache-tomcat-10.0.12
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dwtp.deploy=C:\apache-tomcat-10.0.12\wtpwebapps
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=Cp1252
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+ShowCodeDetailsInExceptionMessages
+out. 07, 2021 11:17:34 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+out. 07, 2021 11:17:34 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+out. 07, 2021 11:17:34 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+out. 07, 2021 11:17:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8081"]
+out. 07, 2021 11:17:34 AM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [725] milliseconds
+out. 07, 2021 11:17:34 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+out. 07, 2021 11:17:34 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/10.0.12]
+out. 07, 2021 11:17:35 AM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+out. 07, 2021 11:17:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Diretório de instalação da aplicação web [C:\apache-tomcat-10.0.12\webapps\docs]
+out. 07, 2021 11:17:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\apache-tomcat-10.0.12\webapps\docs] has finished in [27] ms
+out. 07, 2021 11:17:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Diretório de instalação da aplicação web [C:\apache-tomcat-10.0.12\webapps\examples]
+out. 07, 2021 11:17:36 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+out. 07, 2021 11:17:36 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+out. 07, 2021 11:17:36 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1235151c')
+out. 07, 2021 11:17:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\apache-tomcat-10.0.12\webapps\examples] has finished in [296] ms
+out. 07, 2021 11:17:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Diretório de instalação da aplicação web [C:\apache-tomcat-10.0.12\webapps\host-manager]
+out. 07, 2021 11:17:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\apache-tomcat-10.0.12\webapps\host-manager] has finished in [32] ms
+out. 07, 2021 11:17:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Diretório de instalação da aplicação web [C:\apache-tomcat-10.0.12\webapps\manager]
+out. 07, 2021 11:17:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\apache-tomcat-10.0.12\webapps\manager] has finished in [30] ms
+out. 07, 2021 11:17:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Diretório de instalação da aplicação web [C:\apache-tomcat-10.0.12\webapps\ROOT]
+out. 07, 2021 11:17:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\apache-tomcat-10.0.12\webapps\ROOT] has finished in [24] ms
+out. 07, 2021 11:17:36 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8081"]
+out. 07, 2021 11:17:36 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [1745] milliseconds
+out. 07, 2021 11:17:37 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/curso-java] threw exception [java.lang.NoClassDefFoundError: javax/servlet/jsp/tagext/TagLibraryValidator] with root cause
+java.lang.ClassNotFoundException: javax.servlet.jsp.tagext.TagLibraryValidator
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1444)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1252)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1010)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2516)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:872)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1408)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1252)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1010)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2516)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:872)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1408)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1252)
+	at org.apache.jasper.compiler.TagLibraryInfoImpl.createValidator(TagLibraryInfoImpl.java:355)
+	at org.apache.jasper.compiler.TagLibraryInfoImpl.<init>(TagLibraryInfoImpl.java:195)
+	at org.apache.jasper.compiler.Parser.parseTaglibDirective(Parser.java:429)
+	at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:487)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1444)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:138)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:105)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:206)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:391)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:353)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:872)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1695)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
